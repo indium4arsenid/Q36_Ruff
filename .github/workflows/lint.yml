@@ -13,7 +13,5 @@ jobs:
           python-version: '3.x'
       - name: Install Ruff
         run: pip install ruff
-      - name: Run Ruff Formatting Check
-        run: ruff check . --diff
       - name: Run Ruff Linting
         run: ruff check .
